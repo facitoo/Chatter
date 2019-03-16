@@ -1,7 +1,12 @@
+######################
+# written by Facitoo #
+######################
+ 
 import sqlite3
 import json
 from datetime import datetime
 
+### time frame variable will be used if you want to create multiple database 
 timeframe = 'database'
 sql_transaction = []
 
@@ -16,6 +21,7 @@ def format_data(data):
     return data
 
 def transaction_bldr(sql):
+    #for accesing global variable
     global sql_transaction
     sql_transaction.append(sql)
     if len(sql_transaction) > 1000:
