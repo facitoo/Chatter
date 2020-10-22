@@ -19,7 +19,7 @@ window = Tk()
 #######--------------------------------------------------------------------------------------------------------------------------------------
 MEMORY=['you said nothing!']
 CHANGE=['change your name','change name','name change','change nam','change the name','i want to change your name','i dont like your name']
-EXITGREETING=['GoodBye!','Sayonara','Will miss you!','Nice talking!','See you latet Aligator!','Take care']
+EXITGREETING=['GoodBye!','Sayonara','Will miss you!','Nice talking!','See you later Aligator!','Take care']
 QUESTIONS=['what','is','can','how','howcome','will','would','can']
 GREETING=['hi','hello','sup','howdy','hie','hlo','hey']
 EXIT=['bye','gtg','stop','ttyl','exit']
